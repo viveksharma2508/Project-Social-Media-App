@@ -1,0 +1,13 @@
+<div class = "container my-2">
+    <h1 class = "h1 text-center">Write Posts</h1>
+
+    <!--Write Post form-->
+    <form action="/api/upload" enctype="multipart/form-data" method="post">
+        <div>Text field title: <input type="text" name="title" /></div>
+        <div>File: <input type="file" name="someExpressFiles" multiple="multiple" /></div>
+        <input type="submit" value="Upload" />
+      </form>    
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<!-- <script src="/src/public/app/write-post.js"></script> -->
